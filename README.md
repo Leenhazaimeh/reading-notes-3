@@ -3,9 +3,10 @@
 
 ### Growth Mindset:  
 
-to be in growth mindset means that you are *mature* enough to look at life,work from another perspective which is the big whole picture. congrats! you have reached a level that you could achieve anything you want!, also when you get used to this mindset eveything seems to work easily than ever because your mind is now comfortable with this way of thinking. if you have this mindset, you would likely believe that **hard work** pays off and you will get what you are looking for even if it seems frustrationg right now, also you will be a positive thinker beacuse it's a cycle that will affect your behavior and results! I think there's no such an awesome trait to have in this life
-like this mindset, because if you do it well, it will change your life to whatever you want forever and the last important thing that you'll always be feeling satisfied and confident about yourself. 
-
+To be in growth mindset means that you are *mature* enough to look at life,work from another perspective which is the big whole picture. congrats! you have reached a level that you could achieve anything you want!, also when you get used to this mindset eveything seems to work easily than ever because your mind is now comfortable with this way of thinking. if you have this mindset, you would likely believe that **hard work** pays off and you will get what you are looking for even if it seems frustrationg right now, also you will be a positive thinker beacuse it's a cycle that will affect your behavior and results! I think there's no such an awesome trait to have in this life
+like this mindset, because if you do it well, it will change your life to whatever you want forever and the last important thing that you'll always be feeling satisfied and confident about yourself.    
+  
+    
 ![Growth](https://2.bp.blogspot.com/-kE_tYmSpb0k/WsU1_itDuVI/AAAAAAAAY1w/50ShH1XYzOQq4VCfIxeWb089MQ12KPO0gCLcBGAs/s640/csm_Motiv_Growth_Mindset_d16cd069bd.jpg)
 
 Although you already have this mindset, or just decide to have it; Unfortunately there will be few times you'll feel discouraged and that doesn't work.when you feel this just remeber: 
