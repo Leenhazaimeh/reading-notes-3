@@ -12,6 +12,7 @@ Although you already have this mindset, or just decide to have it; Unfortunately
 1. this feeling is completely fine, we are humans eventually and your emotions might flip. this is the first step I think and it's really really important to not judge yourself just accept it as is. *PS:try to control your feelings every time you feel this way even if it doesn't work just to remind your mind that I'm the leader of my emotions and not vice versa!* and on the long-term you'll defintely see that your unconscious mind obeys you and behaves as you exactly hope.  
 
 2. Take a break! , always award yourself when you feel you did a lot of work so far or achieved sth. Also, take some rest when you are tired. tired not lazy!, a big difference.  
+
 3. Remember that you have a most important tool that is already embeded in your mind by nature which is consciousness(awareness) that will help you catch yourself when you are hoping for instant grafitication and trying to put excuses for yourself and recognise that these excuses are not valid, it's just the comfort zone that still trying to pull you inside it. 
 
 > No pain No Gain! 
