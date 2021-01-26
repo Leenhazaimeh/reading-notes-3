@@ -33,7 +33,8 @@ There might be some specifications or we can call *common use* for structuring w
 
 This example illustrates how HTML5 structures web pages.
 
-``  
+`` 
+	
 	<header>
 
 	<h1>This is a heading 1</h1>
