@@ -6,7 +6,7 @@ Description  |  Link
 ------------ | -------------
 Lab102 | [lab102](/lab102.md)
 Portfolio | [portfolio](portfolio.html)
-
+Read-03a | [Read-03a](Read-03a.md)
 
 
 ## About Me: 
