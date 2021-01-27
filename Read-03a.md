@@ -44,7 +44,7 @@ This example illustrates how HTML5 structures web pages.
 	<ul>
 
 	<li><a href="" class="current">home</a></li>
-
+`
 	<li><a href="">classes</a></li>
 
 	<li><a href="">catering</a></li>
