@@ -4,19 +4,25 @@ CSS stands for cascading style sheets. it's a way for styling your HTML content 
 
 Examples of selectors: 
 - Tag name 
--class name 
--id 
+- class name 
+- id 
 - + 
 - ~
 
 your CSS code will look sth like this: 
 
-`` 
-    h1 {
-        color:white;
-        padding:20px;
-    }
 
+``
+
+	h1 {
+
+	color:white;
+
+	padding:20px;
+
+	}
+
+``
 There are multiple ways of adding css styles to a web page: 
 1. Inline (style attribute inside HTML element 'rarely used')
 2. Internal (style tag inside head of the HTML 'used when you want to add styles to a web page that is different than others)
@@ -24,9 +30,9 @@ There are multiple ways of adding css styles to a web page:
 
 
 ### Colors in CSS
-We don't doubt that colors add life to everything, your web page also should. 
+We don't doubt that colors add life to everything, your web page should also have colors. 
 
-Many ways of declaring color by:
+Many ways of declaring colors by:
 1. name 
 2. rgb or rgba which is with opacity (can take values up to 255 , 0-1 for a)
 3. HEX #00ffee where each two sequent numbers stands for rgb. 
