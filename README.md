@@ -6,7 +6,7 @@ Description  |  Link
 ------------ | -------------
 Lab102 | [lab102](/lab102.md)
 Portfolio | [portfolio](portfolio.html)
-Read-03a | [Read-03a](Read-03a.md)
+class-01.md | [class-01](class-01.md)
 Read-04 | [Read-04](Read-04.md)
 Read-05 | [Read-05](Read-05.md)
 Read-06 | [Read-06](Read-06.md)
