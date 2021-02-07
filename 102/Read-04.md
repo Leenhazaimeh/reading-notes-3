@@ -26,7 +26,7 @@ There are many ways for writing script:
 3. Inside HTML Head (used with some keywords to let scripts executed asyncronously for example )
 
 ```
-<scritp>
+<script>
 
     your script code goes here
 
