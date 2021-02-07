@@ -38,7 +38,7 @@ Read-06 | [Read-06](Read-06.md)
 Description | Link
 ------------ | -------------
 class-01.md | [class-01](class-01.md)
-Read02 | [Read02](201/Read02.md)
+Read02 | [Read02](201/Read-02.md)
 Read03| [Read03](201/Read03.md)
 Read04 |[Read04](201/Read04.md)
 Read05 | [Read05](201/Read05.md)
