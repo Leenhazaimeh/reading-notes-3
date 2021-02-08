@@ -15,7 +15,7 @@ Operator is a tool that helps you doing some processes, there are three types of
 
 ## Loops 
 
-loops are very powerful tools that help you doing many things rathen that typing them as many times as they are. They simply keep repeating untill the condition turns to false. 
+loops are very powerful tools that help you doing many things rather that typing them as many times as they are. They simply keep repeating untill the condition turns to false. 
 
 Examples: 
 
