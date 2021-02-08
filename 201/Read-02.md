@@ -172,11 +172,7 @@ Operator is a tool that helps you doing some processes, there are three types of
 
 1. Arithmitic operators like + ,- , /, * , % , **
 
-  
-
-2. Logical operators like && , || , !
-
-  
+2. Logical operators like and(&&) , or(||) , not(!)
 
 3. Comparison operators ==, === , != , !===, >= , < and many more.
   
@@ -190,7 +186,7 @@ Note: (+) works with string as concatenation. and if you try to do any arithmeti
 
   
 
-|| stands for "or" , one expression is enough to satisfy the condition.
+('||') stands for "or" , one expression is enough to satisfy the condition.
 
   
 
@@ -211,62 +207,24 @@ Switch statement is another way of writing conditional statements by simply call
 
 it will loook sth like this:
 
-  
 
-  
-
-	switch(expression) {
-
-	  
-
-	  
+	switch(expression) {  
 
 	case x:
 
-	  
-
-	  
-
 	// code block
-
-	  
-
-	  
 
 	break;
 
-	  
-
-	  
-
-	case y:
-
-	  
-
-	  
+	case y:	  
 
 	// code block
-
-	  
-
-	  
 
 	break;
 
-	  
-
-	  
-
-	default:
-
-	  
-
-	  
+	default: 
 
 	// code block
 
-	  
-
-	  
-
+	
 	}
