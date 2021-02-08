@@ -172,7 +172,7 @@ Operator is a tool that helps you doing some processes, there are three types of
 
 1. Arithmitic operators like + ,- , /, * , % , **
 
-2. Logical operators like and(&&) , or(||) , not(!)
+2. Logical operators like and(&&) , or , not(!)
 
 3. Comparison operators ==, === , != , !===, >= , < and many more.
   
@@ -186,7 +186,7 @@ Note: (+) works with string as concatenation. and if you try to do any arithmeti
 
   
 
-('||') stands for "or" , one expression is enough to satisfy the condition.
+"or" , one expression is enough to satisfy the condition.
 
   
 
