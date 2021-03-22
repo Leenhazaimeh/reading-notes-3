@@ -19,8 +19,8 @@ To create a responsive website, we have to use "meta" tag to all your web pages.
 
 ### Example how to use float .. 
 
-1. fload:right: Will float the the content to right.
+1. float:right: Will float the the content to right.
 
-2. fload:left: Will float the content to left.
+2. float:left: Will float the content to left.
 
 3. float: none: the content will be displayed just where it occurs in the text.
