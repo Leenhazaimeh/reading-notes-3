@@ -40,15 +40,15 @@ Unsupervised learning includes tasks for "unlabeled" data (i.e. you do not have 
 
 ## The 3 Elements of Great Machine Learning
 
-- 1: A skilled chef (human guidance)
+- 1: A skilled chef
   - As you'll see, you'll need to make dozens of decisions along the way.
   - In fact, the very first major decision is how to road-map your project for guaranteed success.
 
-- 2: Fresh ingredients (clean, relevant data)
+- 2: Fresh ingredients
   - Garbage In = Garbage Out, no matter which algorithms you use.
   - Professional data scientists spend most their time understanding the data, cleaning it, and engineering new features.
 
-- 3: Don't overcook it (avoid over fitting)
+- 3: Don't overcook it
   - An over fit model within a hedge fund can cost millions of dollars in losses.
   - An over fit model within a hospital can costs thousands of lives.
   - For most applications, the stakes won't be quite that high, but over fitting is still the single largest mistake you must avoid.
