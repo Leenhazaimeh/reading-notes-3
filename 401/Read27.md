@@ -92,26 +92,28 @@ It’s a security feature and also it’s because the JWT holds a little bit mor
 This information is encoded using Base64. If we decode, we will see something like this:
 
 - header
-    {
 
-    "typ": "JWT",
+        {
 
-    "alg": "HS256"
+        "typ": "JWT",
 
-    }
+        "alg": "HS256"
+
+        }
 
 - payload
-    {
 
-    "token_type": "access",
+        {
 
-    "exp": 1543828431,
+        "token_type": "access",
 
-    "jti": "7f5997b7150d46579dc2b49167097e7b",
+        "exp": 1543828431,
 
-    "user_id": 1
+        "jti": "7f5997b7150d46579dc2b49167097e7b",
 
-    }
+        "user_id": 1
+
+        }
 
 - signature
 
