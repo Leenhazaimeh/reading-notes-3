@@ -34,13 +34,13 @@ The header typically consists of two parts: the type of the token, which is JWT,
 
 For example:
 
-{
+    {
 
-  "alg": "HS256",
+    "alg": "HS256",
 
-  "typ": "JWT"
+    "typ": "JWT"
 
-}
+    }
 
  
 
@@ -55,15 +55,15 @@ Public claims: These can be defined at will by those using JWTs. But to avoid co
 Private claims: These are the custom claims created to share information between parties that agree on using them and are neither registered or public claims.
 An example payload could be:
 
-{
+    {
 
-  "sub": "1234567890",
+    "sub": "1234567890",
 
-  "name": "John Doe",
+    "name": "John Doe",
 
-  "admin": true
+    "admin": true
 
-}
+    }   
 
  
 
@@ -77,7 +77,7 @@ JWT stand for JSON Web Token and it is an authentication strategy used by client
 
 The JWT is just an authorization token that should be included in all requests:
 
-curl http://127.0.0.1:8000/hello/ -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTQzODI4NDMxLCJqdGkiOiI3ZjU5OTdiNzE1MGQ0NjU3OWRjMmI0OTE2NzA5N2U3YiIsInVzZXJfaWQiOjF9.Ju70kdcaHKn1Qaz8H42zrOYk0Jx9kIckTn9Xx7vhikY'
+    curl http://127.0.0.1:8000/hello/ -H 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTQzODI4NDMxLCJqdGkiOiI3ZjU5OTdiNzE1MGQ0NjU3OWRjMmI0OTE2NzA5N2U3YiIsInVzZXJfaWQiOjF9.Ju70kdcaHKn1Qaz8H42zrOYk0Jx9kIckTn9Xx7vhikY'
 
 The JWT is acquired by exchanging an username + password for an access token and an refresh token.
 
@@ -92,26 +92,26 @@ It’s a security feature and also it’s because the JWT holds a little bit mor
 This information is encoded using Base64. If we decode, we will see something like this:
 
 - header
-{
+    {
 
-  "typ": "JWT",
+    "typ": "JWT",
 
-  "alg": "HS256"
+    "alg": "HS256"
 
-}
+    }
 
 - payload
-{
+    {
 
-  "token_type": "access",
+    "token_type": "access",
 
-  "exp": 1543828431,
+    "exp": 1543828431,
 
-  "jti": "7f5997b7150d46579dc2b49167097e7b",
+    "jti": "7f5997b7150d46579dc2b49167097e7b",
 
-  "user_id": 1
+    "user_id": 1
 
-}
+    }
 
 - signature
 
@@ -130,19 +130,19 @@ http post http://127.0.0.1:8000/api/token/ username=vitor password=123
 
 So basically your response body is the two tokens:
 
-{
+    {
 
-    "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTQ1MjI0MjU5LCJqdGkiOiIyYmQ1NjI3MmIzYjI0YjNmOGI1MjJlNThjMzdjMTdlMSIsInVzZXJfaWQiOjF9.D92tTuVi_YcNkJtiLGHtcn6tBcxLCBxz9FKD3qzhUg8",
+        "access": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTQ1MjI0MjU5LCJqdGkiOiIyYmQ1NjI3MmIzYjI0YjNmOGI1MjJlNThjMzdjMTdlMSIsInVzZXJfaWQiOjF9.D92tTuVi_YcNkJtiLGHtcn6tBcxLCBxz9FKD3qzhUg8",
 
-    "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTU0NTMxMDM1OSwianRpIjoiMjk2ZDc1ZDA3Nzc2NDE0ZjkxYjhiOTY4MzI4NGRmOTUiLCJ1c2VyX2lkIjoxfQ.rA-mnGRg71NEW_ga0sJoaMODS5ABjE5HnxJDb0F8xAo"
+        "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTU0NTMxMDM1OSwianRpIjoiMjk2ZDc1ZDA3Nzc2NDE0ZjkxYjhiOTY4MzI4NGRmOTUiLCJ1c2VyX2lkIjoxfQ.rA-mnGRg71NEW_ga0sJoaMODS5ABjE5HnxJDb0F8xAo"
 
-}
+    }
 
 After that you are going to store both the access token and the refresh token on the client side, usually in the localStorage.
 
 In order to access the protected views on the backend (i.e., the API endpoints that require authentication), you should include the access token in the header of all requests, like this:
 
-http http://127.0.0.1:8000/hello/ "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTQ1MjI0MjAwLCJqdGkiOiJlMGQxZDY2MjE5ODc0ZTY3OWY0NjM0ZWU2NTQ2YTIwMCIsInVzZXJfaWQiOjF9.9eHat3CvRQYnb5EdcgYFzUyMobXzxlAVh_IAgqyvzCE"
+    http http://127.0.0.1:8000/hello/ "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNTQ1MjI0MjAwLCJqdGkiOiJlMGQxZDY2MjE5ODc0ZTY3OWY0NjM0ZWU2NTQ2YTIwMCIsInVzZXJfaWQiOjF9.9eHat3CvRQYnb5EdcgYFzUyMobXzxlAVh_IAgqyvzCE"
 
 - Refresh Token
 
